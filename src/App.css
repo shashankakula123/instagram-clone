@@ -12,8 +12,14 @@
   border: 1px solid lightgray;
   padding: 12px 24px;
 }
-.app__headerImage{
+.app__headerimage{
   object-fit: contain;
   padding: 0px;
+  
+}
+
+.app__form{
+  display: flex;
+  justify-content: center;
 
 }
