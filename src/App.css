@@ -6,14 +6,34 @@
   height: 100vh;
 }
 .app__header{
-  
+  position: sticky;
+  top:0;
+  z-index: 1;
   
   background-color: white;
   border: 1px solid lightgray;
   padding: 12px 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.app__headerImage{
+.app__headerimage{
   object-fit: contain;
   padding: 0px;
+  
+}
 
+.app__form{
+  display: flex;
+  justify-content: center;
+
+}
+
+.app__logincontainer button{
+  margin:0px;
+  padding: 10px;
+}
+
+.app__posts{
+  padding: 20px;
 }
